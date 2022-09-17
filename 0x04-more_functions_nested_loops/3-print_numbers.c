@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,11 +8,11 @@
 
 void print_numbers(void)
 {
-	int c;
+	int c;0
 
-	for (c = 48; c < 58; c++);
+	for (c = 48; c < 58; c++)
 	{
-		_putchar(c);
+		putchar(c);
 	}
-	_putchar('\n');
+	putchar(10);
 }
